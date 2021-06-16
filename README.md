@@ -5,6 +5,7 @@ Este projeto utiliza conhecimentos de processamento de imagens e machine learnin
 
 Link do dataset: https://www.kaggle.com/fournierp/captcha-version-2-images
 
+Este trabalho utilizou  bibliotecas do python, sendo elas: tensorflow, keras e opencv.
 As imagens do dataset foram pré-processadas e separadas em 70% para treinamento 20% para testes e 10% para validação. As imagens originais estavam na escala de cinza e passou por processos de limialização e binarização.
 
 
@@ -30,7 +31,10 @@ As imagens do dataset foram pré-processadas e separadas em 70% para treinamento
   
  <img src="imagens/m.png"  />
  
- A CNN foi treinada com os digitos recortados e obteve uma acurácia de 96.73%.
+ Utilizando as bibliotecas tensorflow e keras do python, foi dessenvolvida e treinada uma arquitetura de rede neural, que pode ser visualizada abaixo:
+ <img src="imagens/modelo.png"  />
+ 
+  A CNN foi treinada com os digitos recortados e obteve uma acurácia de 96.73%.
  
  - Predição obtida pelo modelo
  

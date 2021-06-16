@@ -1,2 +1,16 @@
 # Quebrando_Captcha_Seguranca
-Este projeto irá utilizar conhecimentos de processamento de imagens e machine learning para quebrar captchas de segurança.
+Este projeto utiliza conhecimentos de processamento de imagens e machine learning para quebrar captchas de segurança. O dataset utilizado contém captchas com 19 tipos de digitos, sendo eles: 
+
+ - 2 3 4 5 6 7 8 b c d e f g m n p w x y.
+
+Link do dataset: https://www.kaggle.com/fournierp/captcha-version-2-images
+
+As imagens do dataset foram pré-processadas e separadas em 70% para treinamento 20% para testes e 10% para validação. As imagens originais estavam na escala de cinza e passou por processos de limialização e binarização.
+
+O processo de limiarização consiste na transformação de uma imagem em escala de cinza para uma imagem binária.
+
+ -Imagem Original
+
+
+ A limiarização mais simples é a definida por um limite predefinido, onde tudo que for menor que esse limite é transformado para um valor, e maior que ele para outro valor.
+

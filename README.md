@@ -32,7 +32,8 @@ As imagens do dataset foram pré-processadas e separadas em 70% para treinamento
  <img src="imagens/m.png"  />
  
  Utilizando as bibliotecas tensorflow e keras do python, foi dessenvolvida e treinada uma arquitetura de rede neural, que pode ser visualizada abaixo:
- <img src="imagens/modelo.png"  />
+ 
+ <img src="imagens/modelo.png" width="400" />
  
   A CNN foi treinada com os digitos recortados e obteve uma acurácia de 96.73%.
  

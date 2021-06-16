@@ -7,13 +7,12 @@ Link do dataset: https://www.kaggle.com/fournierp/captcha-version-2-images
 
 As imagens do dataset foram pré-processadas e separadas em 70% para treinamento 20% para testes e 10% para validação. As imagens originais estavam na escala de cinza e passou por processos de limialização e binarização.
 
-O processo de limiarização consiste na transformação de uma imagem em escala de cinza para uma imagem binária.
 
  - Imagem Original
  
  <img src="imagens/captchaoriginal.png"  />
 
- A limiarização mais simples é a definida por um limite predefinido, onde tudo que for menor que esse limite é transformado para um valor, e maior que ele para outro valor.
+ O processo de limiarização consiste na transformação de uma imagem em escala de cinza para uma imagem binária. A limiarização mais simples é a definida por um limite predefinido, onde tudo que for menor que esse limite é transformado para um valor, e maior que ele para outro valor.
 
 - Imagem limiarizada e binarizada
 

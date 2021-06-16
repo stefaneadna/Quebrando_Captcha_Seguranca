@@ -1,4 +1,4 @@
-# Quebrando_Captcha_Seguranca
+# Quebrando Captcha de Seguranca
 Este projeto utiliza conhecimentos de processamento de imagens e machine learning para quebrar captchas de segurança. O dataset utilizado contém captchas com 19 tipos de digitos, sendo eles: 
 
  - 2 3 4 5 6 7 8 b c d e f g m n p w x y.

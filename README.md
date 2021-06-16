@@ -9,27 +9,30 @@ As imagens do dataset foram pré-processadas e separadas em 70% para treinamento
 
 O processo de limiarização consiste na transformação de uma imagem em escala de cinza para uma imagem binária.
 
- -Imagem Original
+ - Imagem Original
  
  <img src="imagens/captchaoriginal.png"  />
 
  A limiarização mais simples é a definida por um limite predefinido, onde tudo que for menor que esse limite é transformado para um valor, e maior que ele para outro valor.
 
--Imagem limiarizada e binarizada
+- Imagem limiarizada e binarizada
 
  <img src="imagens/limiarização.png"  />
  
  Com o intuito de remover ruidos e outras imperfeições das imagens, elas também sofreram o processo de erosão.
- -Imagem após a erosão
+ 
+ - Imagem após a erosão
  
  <img src="imagens/erosao.png"  />
  
  Cada captcha contém 5 digitos, logo cada imagem de captcha foi recortada em 5 imagens diferentes, sendo cada uma referente a um digito.
-  -Digito recortado
+ 
+  - Digito recortado
   
  <img src="imagens/m.png"  />
  
  A CNN foi treinada com os digitos recortados e obteve uma acurácia de 96.73%.
- -Predição obtida pelo modelo
+ 
+ - Predição obtida pelo modelo
  
   <img src="imagens/predicao.png"  />
